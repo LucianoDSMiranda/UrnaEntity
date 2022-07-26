@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\programacao\\EFUrna\\2\\EFUrna2\\EFUrna2.API.csproj": {}
+  },
+  "projects": {
+    "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj",
+        "projectName": "EFUrna2.dominio",
+        "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\programacao\\EFUrna\\2\\EFUrna2.Repositorio\\EFUrna2.Repositorio.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\programacao\\EFUrna\\2\\EFUrna2.Repositorio\\EFUrna2.Repositorio.csproj",
+        "projectName": "EFUrna2.Repositorio",
+        "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna2.Repositorio\\EFUrna2.Repositorio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj": {
+                "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\programacao\\EFUrna\\2\\EFUrna2\\EFUrna2.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programacao\\EFUrna\\2\\EFUrna2\\EFUrna2.API.csproj",
+        "projectName": "EFUrna2.API",
+        "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna2\\EFUrna2.API.csproj",
+        "packagesPath": "C:\\Users\\Lucia\\.nuget\\packages\\",
+        "outputPath": "D:\\programacao\\EFUrna\\2\\EFUrna2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj": {
+                "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna.dominio\\EFUrna2.dominio.csproj"
+              },
+              "D:\\programacao\\EFUrna\\2\\EFUrna2.Repositorio\\EFUrna2.Repositorio.csproj": {
+                "projectPath": "D:\\programacao\\EFUrna\\2\\EFUrna2.Repositorio\\EFUrna2.Repositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+D:\programacao\EFUrna\2\EFUrna.dominio\bin\Debug\EFUrna.dominio.dll
+D:\programacao\EFUrna\2\EFUrna.dominio\bin\Debug\EFUrna.dominio.pdb
+D:\programacao\EFUrna\2\EFUrna.dominio\obj\Debug\EFUrna2.dominio.csproj.AssemblyReference.cache
+D:\programacao\EFUrna\2\EFUrna.dominio\obj\Debug\EFUrna2.dominio.csproj.CoreCompileInputs.cache
+D:\programacao\EFUrna\2\EFUrna.dominio\obj\Debug\EFUrna.dominio.dll
+D:\programacao\EFUrna\2\EFUrna.dominio\obj\Debug\EFUrna.dominio.pdb
